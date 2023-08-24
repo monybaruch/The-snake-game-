@@ -10,7 +10,7 @@ const gameBoard = document.querySelector('#game-board');
 const main = (currentTime) => {
   if (gameOver) {
     if (confirm('You Lost! Press ok to restart!')) {
-      window.location = '/';
+      window.location = '/The-snake-game-';
     }
     return;
   }
