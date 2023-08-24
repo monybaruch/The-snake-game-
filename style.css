@@ -16,4 +16,17 @@ body {
   background-color: #ccc;
   width: 100vmin;
   height: 100vmin;
+  display: grid;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+}
+
+.snake {
+  background-color: rgb(0, 129, 249);
+  border: 0.25vmin solid black;
+}
+
+.food {
+  background-color: yellowgreen;
+  border: 0.25vmin solid black;
 }
